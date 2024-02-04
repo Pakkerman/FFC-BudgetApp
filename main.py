@@ -3,6 +3,9 @@ import budget
 from budget import create_spend_chart
 from unittest import main
 
+
+print('\n------- Budget App ------\n')
+
 food = budget.Category("Food")
 food.deposit(1000, "initial deposit")
 food.withdraw(10.15, "groceries")
